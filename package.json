@@ -1,0 +1,26 @@
+{
+  "name": "Framework",
+  "version": "1.0.0",
+  "description": "Simple HTTP Framework",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "framework",
+    "http"
+  ],
+  "author": "Gaye Bulut",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-simple-mocha": "^0.4.0",
+    "mocha": "^2.1.0"
+  }
+}
