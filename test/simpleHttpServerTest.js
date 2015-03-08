@@ -13,7 +13,7 @@ var testFolder = 'folder' + (10000 + Math.random() * 10000);
 var expected = '{ "idNum" : "test" }';
 var getRandResName = function() {
 	return '/' + testFolder + '/' + (10000 + Math.random() * 10000);
-}
+};
 
 describe('framework tests', function() {
 
